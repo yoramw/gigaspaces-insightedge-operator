@@ -157,8 +157,6 @@ spec:
   maintainers:
     - name: GigaSpaces Technologies Ltd.
       email: support@gigaspaces.com
-  provider:
-    name: GigaSpaces Technologies Ltd.
   links:
     - name: Blog
       url: https://www.gigaspaces.com/blog/
@@ -279,4 +277,3 @@ spec:
   maturity: alpha
   provider:
     name: GigaSpaces
-  version: 0.0.1
