@@ -27,12 +27,12 @@ metadata:
     categories: "Monitoring,OpenShift Optional"
     capabilities: "Basic Install"
     certified: "true"
-    containerImage: docker.io/yoramw/insightedge-enterprise-operator:v0.0.1
+    containerImage: docker.io/yoramw/insightedge-enterprise-operator:v0.0.2
     createdAt: 2019-04-25T12:59:59Z
     description: Deploy the InsightEdge agent from a helm chart onto your Kubernetes or OpenShift cluster
     repository: https://github.com/RHC4TP/operators/tree/master/partners/gigaspaces-insightedge-operator
     support: Red Hat Connect
-  name: insightedge-operator.v0.0.1
+  name: insightedge-operator.v0.0.2
   namespace: "placeholder"
 spec:
   apiservicedefinitions: {}
@@ -183,7 +183,7 @@ spec:
                 containers:
                   - name: insightedge-operator
                     # Replace this with the built image name
-                    image: docker.io/yoramw/insightedge-enterprise-operator:v0.0.1
+                    image: docker.io/yoramw/insightedge-enterprise-operator:v0.0.2
                     imagePullPolicy: Always
                     env:
                       - name: WATCH_NAMESPACE
